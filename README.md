@@ -2,6 +2,8 @@
 
 ### Description
 
+4/25/2022: Note. Updated readme so I can submit a commit by 4/25
+
 In week four we've learned about a few different classifiers. In week five we'll learn about webscraping, APIs, and Natural Language Processing (NLP). This project will put those skills to the test.
 
 For project 3, your goal is two-fold:
@@ -57,12 +59,12 @@ You should make sure that you consider and/or follow most if not all of the cons
 
 For Project 3 the evaluation categories are as follows:<br>
 **The Data Science Process**
-- Problem Statement
-- Data Collection
-- Data Cleaning & EDA
-- Preprocessing & Modeling
-- Evaluation and Conceptual Understanding
-- Conclusion and Recommendations
+y1 - Problem Statement 
+y1 - Data Collection
+y1 - Data Cleaning & EDA
+y1 - Preprocessing & Modeling
+y1 - Evaluation and Conceptual Understanding
+y1 - Conclusion and Recommendations
 
 **Organization and Professionalism**
 - Organization
