@@ -16,9 +16,7 @@
 
 ### Executive Summary
 
-The goal of this analysis is to correctly classify posts as either belonging to subreddit1 (r/learnpython) or subreddit2 (r/learnsql), using machine learning classification models and NLP librarie in Python.
-
-Success is evaluated using each models' accuracy and f1 score.
+The goal of this project was to correctly classify posts as either belonging to subreddit 1 or subreddit 2, using machine learning classification models and NLP libraries in Python.
 
 
 ### Data
@@ -51,7 +49,7 @@ My baseline model had an accuracy score of 50.1 (seeing as the classes in my dat
 
 * My top performing models were a multinomial bayes, a random forest, and a logistic regression. I made a grid search for each of these models, and used VotingClassifier to make an ensemble model.
 
-* My final model had an accuracy score of 99.2% on the training set, and 92.4% on the test set. The precision was 93%.
+* My final model had an accuracy score of 99.2% on the training set, and 92.4% on the test set. 
 
 
 
