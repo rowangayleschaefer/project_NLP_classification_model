@@ -8,8 +8,11 @@
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn2][linkedin-shield]][linkedin-url]</div>
+
+<!-- PROJECT LOGO -->
 <br />
-<br />
+<div align="center">
+  </a>
 
 <h1 align="center"> Reddit NLP Classification Project </h1>
 
@@ -133,17 +136,16 @@ I looked through posts that the model misclassified and found that many of them 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/git.generalassemb.ly/contributors/rowan/project-3.svg?style=for-the-badge
-[contributors-url]: https://git.generalassemb.ly/rowan/project-3/graphs/contributors
-[forks-shield]: https://img.shields.io/git.generalassemb.ly/forks/rowan/project-3.svg?style=for-the-badge
-[forks-url]: https://git.generalassemb.ly/rowan/project-3/network/members
-[stars-shield]: https://img.shields.io/git.generalassemb.ly/stars/rowan/project-3.svg?style=for-the-badge
-[stars-url]: https://git.generalassemb.ly/rowan/project-3/stargazers
-[issues-shield]: https://img.shields.io/git.generalassemb.ly/issues/rowan/project-3.svg?style=for-the-badge
-[issues-url]: https://git.generalassemb.ly/rowan/project-3/issues
-[license-shield]: https://img.shields.io/git.generalassemb.ly/license/rowan/project-3.svg?style=for-the-badge
-[license-url]: https://git.generalassemb.ly/rowan/project-3/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/rowangayleschaefer/project_NLP_classification_model.svg?style=for-the-badge
+[contributors-url]: https://github.com/rowangayleschaefer/project_NLP_classification_model/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/rowangayleschaefer/project_NLP_classification_model.svg?style=for-the-badge
+[forks-url]: https://github.com/rowangayleschaefer/project_NLP_classification_model/network/members
+[stars-shield]: https://img.shields.io/github/stars/rowangayleschaefer/project_NLP_classification_model.svg?style=for-the-badge
+[stars-url]: https://github.com/rowangayleschaefer/project_NLP_classification_model/stargazers
+[issues-shield]: https://img.shields.io/github/issues/rowangayleschaefer/project_NLP_classification_model.svg?style=for-the-badge
+[issues-url]: https://github.com/rowangayleschaefer/project_NLP_classification_model/issues
+[license-shield]: https://img.shields.io/github/license/rowangayleschaefer/project_NLP_classification_model.svg?style=for-the-badge
+[license-url]: https://github.com/rowangayleschaefer/project_NLP_classification_model/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/rowanschaefer
 
