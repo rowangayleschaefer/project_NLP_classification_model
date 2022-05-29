@@ -104,9 +104,7 @@ I also did an analysis of post length and word count to see if these would be me
 <br /><p>
 
 ### Conclusions:
-Overall, the votingclassifier returned my best model, essentially pulling in the positives of each model it was comprised of. However, it made the results and feature importances uch more difficult to interpret. 
-
-VotingClassifier actually performed similarly to my original model (without "giveaway" words removed) so I did actually reach my goal of improving my score back to this standard, without inclusion of common stopwords. 
+Overall, the ensemble of multinomial bayes, random forest, and logistic regression was my best model, essentially pulling in the positives of each model it was comprised of. However, it made the results and feature importances much more difficult to interpret.  
 
 I looked through posts that the model misclassified and found that many of them dealt with technologies or concepts that are shared by both python and SQL, a noteable mention being regex. Other common misclassifications were posts about learning resources/free classes, and general database questions. 
   
