@@ -66,7 +66,8 @@ Data was scraped from two subreddits, <code>r/learnpython</code> and <code>r/lea
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br /><p>
 
-
+## Process
+  
 ### Data Acquisition/Cleaning
 Reddit's API is pretty easy to use, but it does limit 60 requests per minute and 100 rows of data per request. 
   
@@ -77,13 +78,15 @@ During data cleaning nulls were handled appropriately for each column, repetetiv
   
 I also removed instances of "giveaway" words that I thought would make class prediction too straightforward.
 
-
+<br /><p>
+  
 ### Exploratory Analysis
 The exploratory analysis notebook contains some initial EDA on post text, body text, and additional columns, including number of commenters and top commenters per subreddit. 
   
 I also did an analysis of post length and word count to see if these would be meaningful features in determining class membership.
 
 
+ <br /><p>
 ### Modeling
 * For this particular problem, it wasn't necessary to minimize false negatives or false posistives, so I used accuracy, precision, and f1_score as metrics.
   
@@ -95,7 +98,7 @@ I also did an analysis of post length and word count to see if these would be me
 
 * My final model had an accuracy score of 99.2% on the training set, and 92.4% on the test set. 
 
-
+<br /><p>
 
 ### Conclusions:
 Overall, the votingclassifier returned my best model, essentially pulling in the positives of each model it was comprised of. However, it made the results and feature importances uch more difficult to interpret. 
@@ -104,7 +107,10 @@ VotingClassifier actually performed similarly to my original model (without "giv
 
 I looked through posts that the model misclassified and found that many of them dealt with technologies or concepts that are shared by both python and SQL, a noteable mention being regex. Other common misclassifications were posts about learning resources/free classes, and general database questions. 
   
-Overall, my model did
+<br /><p>
+  
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br /><p>
 
 ### Next Steps
   
@@ -122,6 +128,9 @@ Overall, my model did
 
 
 Note that for this notebook, charts generated with plotly are displayed as images, and code is included in the appendix of the notebook.
+  
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br /><p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
