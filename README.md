@@ -41,7 +41,7 @@ The goal of this project was to correctly classify posts as either belonging to 
   
 ### Software Requirements
 
-Note that some formatting for tables and vizualizations will not render unless you run this on your local machine, rather than viewing project via github.
+Note that some formatting for tables and vizualizations will not render unless you run this on your local machine, rather than viewing project via github. Charts generated with plotly are displayed as images, and code is included in the appendix of the notebook.
 
 To run this code, you will need python installed (3.8.0 or higher recommended). <br />
 
@@ -126,8 +126,6 @@ I looked through posts that the model misclassified and found that many of them 
 * Classifying "flavors" of SQL within the r/sql subreddit (this could potentially be done using only special characters and a few keywords.)
 * Analysis of most common issues that users ask for help with in each subreddit 
 
-
-Note that for this notebook, charts generated with plotly are displayed as images, and code is included in the appendix of the notebook.
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br /><p>
