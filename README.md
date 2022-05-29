@@ -33,8 +33,8 @@ The goal of this project was to correctly classify posts as either belonging to 
   
   
 ### Research Questions
-* Which classification models and hyperparameters lead to the highest accuracy score in classifying text posts?
-* Which posts are most frequently misclassified?
+* Which classification models and hyperparameters classify reddits posts with the highest accuracy/precision?
+* What topics are most frequently misclassified? Which subreddits are most frequently misclassified?
 
 <br /><p>
   
