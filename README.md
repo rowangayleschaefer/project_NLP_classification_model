@@ -19,15 +19,13 @@
     <br />
   </p>
 </div>
-
+<br /></p>
 
 
 <!-- ABOUT THE PROJECT -->
 # About The Project
 <div aligh="center"><img src="./images/reddit.png"></div>
 <br /><p>
-
-### Executive Summary
 
 The goal of this project was to correctly classify posts as either belonging to subreddit 1 or subreddit 2, using machine learning classification models and NLP libraries in Python.
 <br /><p>
@@ -118,15 +116,15 @@ I looked through posts that the model misclassified and found that many of them 
   
 **Taking a look at preliminary models, there are a couple steps I could take next, given more time to complete the project:**
 * Take a deeper look into settings for TfidfVectorizer to improve performance: although I did spend some time on this, I had limited knowledge of NLP at the time I completed this project.
-* Limiting features/words used to classify posts - for code-heavy posts, it should theoretically be possible to build a model that uses a negligable number of  features, but still classifies with high accuracy (with the exception of Regex questions.)
-* Taking a deeper look at misclassifications, and attempting to prevent common misclassifications by adjusting preprocessing steps.
-* Seeing if model performance improves when using SpaCy or alternative Natural Language Processing libraries
-* Trying a neural net model for classification.
+* Limiting features/words used to classify posts - for code-heavy posts, it should  be possible to build a model that uses a negligable number of  features, but still classifies with high accuracy.
+* Taking a deeper look at misclassifications, and attempting to account for these by adjusting preprocessing steps.
+* Testing model performance with SpaCy or alternative Natural Language Processing libraries
+* Trying a neural net model for classification
+<br /><br />
   
-**Additionally, here some other ideas that I could explore for this dataset:**
+**Additionally, here some other ideas that I could explore using this dataset:**
 * Classifying "flavors" of SQL within the r/sql subreddit (this could potentially be done using only special characters and a few keywords.)
 * Analysis of most common issues that users ask for help with in each subreddit 
-* Sentiment analysis could be tough for this data, since a large amount of it is code blocks, but it would still be interesting to look into.
 
 
 Note that for this notebook, charts generated with plotly are displayed as images, and code is included in the appendix of the notebook.
