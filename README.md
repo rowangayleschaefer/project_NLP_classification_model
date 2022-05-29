@@ -145,7 +145,7 @@ I looked through posts that the model misclassified and found that many of them 
 [issues-shield]: https://img.shields.io/github/issues/rowangayleschaefer/project_NLP_classification_model.svg?style=for-the-badge
 [issues-url]: https://github.com/rowangayleschaefer/project_NLP_classification_model/issues
 [license-shield]: https://img.shields.io/github/license/rowangayleschaefer/project_NLP_classification_model.svg?style=for-the-badge
-[license-url]: https://github.com/rowangayleschaefer/project_NLP_classification_model/blob/master/LICENSE.txt
+[license-url]: https://github.com/rowangayleschaefer/project_NLP_classification_model/blob/master/license.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/rowanschaefer
 
