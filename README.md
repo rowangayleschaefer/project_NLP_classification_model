@@ -27,7 +27,7 @@
 <div aligh="center"><img src="./images/reddit.png"></div>
 <br /><p>
 
-The goal of this project was to correctly classify posts as either belonging to subreddit 1 or subreddit 2, using machine learning classification models and NLP libraries in Python.
+The goal of this project was to correctly classify posts as either belonging to subreddit 1 or subreddit 2, using machine learning classification models and Natural Language Processing.
 <br /><p>
 <br />
   
