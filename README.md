@@ -79,18 +79,20 @@ I found that I had to pull additional data for r/sql in order to avoid unbalance
 
 During data cleaning nulls were handled appropriately for each column, repetetive posts were limited, and the title and selftext (body) of the post were concatenated. Later in preprocessing, text was converted to all lowercase, special characters were filtered, and I tested multiple methods of vectorizing text. 
   
-I also removed instances of "giveaway" words that I thought would make class prediction too straightforward.
+I also removed instances of "giveaway" words that I thought would make class prediction too straightforward. The data acquisition process is located in [notebook 1](https://github.com/rowangayleschaefer/project_NLP_classification_model/blob/main/Rowan_Proj3_Part1.ipynb).
 
 <br /><p>
   
 ### Exploratory Analysis
-The exploratory analysis notebook contains some initial EDA on post text, body text, and additional columns, including number of commenters and top commenters per subreddit. 
+The [exploratory analysis notebook](https://github.com/rowangayleschaefer/project_NLP_classification_model/blob/main/Rowan_Proj3_Part2.ipynb) contains some initial EDA on post text, body text, and additional columns, including number of commenters and top commenters per subreddit. 
   
-I also did an analysis of post length and word count to see if these would be meaningful features in determining class membership.
+I also did an analysis of post length and word count to see if these would be meaningful features in determining class membership. 
 
 
  <br /><p>
 ### Modeling
+Preprocessing steps and modeling for this project are located in [notebook 3](https://github.com/rowangayleschaefer/project_NLP_classification_model/blob/main/Rowan_Proj3_Part3.ipynb). 
+   
 * For this particular problem, it wasn't necessary to minimize false negatives or false posistives, so I used accuracy, precision, and f1_score as metrics.
   
 * My baseline model had an accuracy score of 50.1 (seeing as the classes in my dataset had a slight imbalance.)
