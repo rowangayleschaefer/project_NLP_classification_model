@@ -12,7 +12,7 @@
 <br />
 
 <h1 align="center"> Reddit NLP Classification Project </h1>
-<div align="center"><img src="https://www.kindpng.com/picc/m/3-32823_house-drawing-png-transparent-png.png" height=100 width=180> </div>
+
 
   <p align="center">
     Completed for General Assembly DSI Immersive
@@ -24,6 +24,8 @@
 
 <!-- ABOUT THE PROJECT -->
 # About The Project
+<div aligh="center"><img src="./images/reddit.png"></div>
+<br /><p>
 
 ### Executive Summary
 
