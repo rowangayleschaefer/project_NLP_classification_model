@@ -24,7 +24,7 @@
 
 <!-- ABOUT THE PROJECT -->
 # About The Project
-<div aligh="center"><img src="./images/reddit.png"></div>
+<div aligh="center"><a href=https://www.icloud.com/keynote/075rfgAkDG4ixyrlDc87q_9Sg#project3%5Fpres%5F><img src="./images/reddit.png"></a></div>
 <br /><p>
 
 The goal of this project was to correctly classify posts as either belonging to subreddit 1 or subreddit 2, using machine learning classification models and Natural Language Processing.
