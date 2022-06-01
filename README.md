@@ -99,7 +99,7 @@ Preprocessing steps and modeling for this project are located in [notebook 3](ht
 
 * I tried using both countvectorizer and TfidfVectorizer to vectorize text; models using countvectorizer consistently performed better than TfidfVectorizer. 
 
-* My top performing models were a multinomial bayes, a random forest, and a logistic regression. I made a grid search for each of these models, and used VotingClassifier to make an ensemble model.
+* My top performing models were a multinomial bayes, a random forest, and a logistic regression. I tuned hyperparameters for each of these models, and used VotingClassifier to make an ensemble.
 
 * My final model had an accuracy score of 99.2% on the training set, and 92.4% on the test set. 
 
